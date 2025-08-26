@@ -188,17 +188,17 @@ curl -X DELETE http://localhost:3000/tasks/2
 
 ---
 
-## 🔹 Notas importantes
+## Notas importantes
 
 * Todas las tareas se almacenan en memoria, por lo que se **perderán al reiniciar el servidor**.
-* Se recomienda siempre usar la misma ID que devuelve la creación de la tarea para actualizarla o eliminarla.
+* Se recomienda siempre usar el misma ID que devuelve la creación de la tarea para actualizarla o eliminarla.
 * Para POST y PUT recuerda siempre enviar el header:
 
 ```
 Content-Type: application/json
 ```
 
-## 📝 Postman
+## Postman
 
 Si usas Postman, puedes crear requests con los mismos endpoints y body que los ejemplos `curl`.
 Recuerda configurar **Content-Type: application/json** para POST y PUT.
