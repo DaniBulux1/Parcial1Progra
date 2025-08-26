@@ -1,0 +1,17 @@
+# Son las dependencias instaladas
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# el sistema
+.DS_Store
+Thumbs.db
+
+# las variables de entorno
+.env
+.env.local
+.env.*.local

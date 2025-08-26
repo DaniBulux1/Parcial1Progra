@@ -1,0 +1,17 @@
+{
+  "name": "parcialprogramacion",
+  "version": "1.0.0",
+  "description": "API rest para gestión de tareas evaluacion",
+  "license": "ISC",
+  "author": "Danilo Bulux",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
+}
